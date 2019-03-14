@@ -1,0 +1,88 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.main-bg{
+    background: url(../images/paper-bg.png);
+}
+.slogan{
+    background: linear-gradient(45deg,rgb(0, 0, 0, 0.1),rgba(0, 0, 0, 0.8)), url(../images/header-bg.png) no-repeat;
+    position: relative;
+    background-position: 10%;
+    background-size: cover;
+}
+.mobile-header{
+    background-color: #819446;
+}
+.text-vert{
+    writing-mode: vertical-lr;
+    text-orientation: mixed;
+    transform: rotateZ(180deg) translate(-13px, 0px);
+    font-weight: 900;
+    font-size: 1.18rem;
+    color: #ffde00;
+}
+.text-bomb{
+    font-size: 4.5rem;
+    line-height: .8;
+    color: rgba(255, 255, 255, 0.6);
+}
+.slogan-star{
+    max-height: 1.5rem;
+    align-self: flex-end;
+}
+.offer-bg{
+    background: linear-gradient(45deg,rgb(0, 0, 0, 0.1),rgba(0, 0, 0, 0.5)), #b4332c no-repeat;
+}
+.text-yellow{
+    color: #ffde00;
+}
+.text-red{
+    color: #b4332c;
+}
+.bg-yellow{
+    background-color: #ffde00;
+}
+.bg-red{
+    background-color: #b4332c;
+}
+button{
+    border: none;
+    border-radius: 15px;
+}
+.box{
+    border: solid #ffde00 2px;
+    border-radius: 7px;
+}
+.history-bg{
+    background-image: url(../images/torn-poster.png);
+}
+.beer-offer-bg{
+    background-image: url(../images/white-bg.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+nav img{
+    max-height: 38px;
+}
+nav button img{
+    max-height: 25px;
+}
+.price{
+    position: absolute;
+    z-index: 2;
+    line-height: 1;
+}
+.price-right{
+    transform: translate(75%, 0%) scale(.7);
+}
+.price-left{
+    transform: translate(-85%, 0%) scale(.7);
+}
+.price .rs{
+    font-size: 1.5rem;
+}
+.price .big-number{
+    font-size: 3.5rem;
+    line-height: 1;
+}
